@@ -383,7 +383,6 @@
 		43CA16D60FC1E44200E14FE7 /* OutputDeviceHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OutputDeviceHandler.h; sourceTree = "<group>"; };
 		43CA16D70FC1E44200E14FE7 /* OutputDeviceHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OutputDeviceHandler.m; sourceTree = "<group>"; };
 		43D0126C0B8B66BA00711A1B /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
-		43D0C8B60C13F25900940B39 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
 		43D2549B0B4D80B900660DD9 /* MPSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPSlider.h; path = Source/subclasses/MPSlider.h; sourceTree = "<group>"; };
 		43D254A90B4D80F200660DD9 /* MPSlider.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = MPSlider.m; path = Source/subclasses/MPSlider.m; sourceTree = "<group>"; };
 		43E7F6430B415860005FEC19 /* LicenseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LicenseController.h; path = Source/LicenseController.h; sourceTree = "<group>"; };
@@ -462,7 +461,6 @@
 		43FFC4090FC202D2002620C0 /* AppleRemoteController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppleRemoteController.h; sourceTree = "<group>"; };
 		43FFC40A0FC202D2002620C0 /* AppleRemoteController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppleRemoteController.m; sourceTree = "<group>"; };
 		480249D715E7AC1F0029CBC7 /* InfoPanel.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = InfoPanel.xib; path = Resources/InfoPanel.xib; sourceTree = "<group>"; };
-		480249DE15E7AD030029CBC7 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		480249E015E7ADE40029CBC7 /* PlayListFiles.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PlayListFiles.xib; path = Resources/PlayListFiles.xib; sourceTree = "<group>"; };
 		480249E215E7AFB40029CBC7 /* LicenseWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LicenseWindow.xib; path = Resources/LicenseWindow.xib; sourceTree = "<group>"; };
 		480249E415E7B10B0029CBC7 /* Preferences.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Preferences.xib; path = Resources/Preferences.xib; sourceTree = "<group>"; };
@@ -475,6 +473,8 @@
 		48A9551215E7705900289B16 /* CHANGELOG */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CHANGELOG; sourceTree = "<group>"; usesTabs = 0; };
 		4A2C74DA164EEE8F00F63333 /* shuffleOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shuffleOff.png; sourceTree = "<group>"; };
 		4A2C74DC164EEE9600F63333 /* shuffleOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shuffleOn.png; sourceTree = "<group>"; };
+		8855E9EB25DBD71C00FABFD9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8855E9EC25DBD71C00FABFD9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Theremin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Theremin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD6FACD519CD244300BCF49D /* Composer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Composer.h; path = Source/MusicServer/Composer.h; sourceTree = "<group>"; };
 		DD6FACD619CD265800BCF49D /* Album.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Album.m; path = Source/MusicServer/Album.m; sourceTree = "<group>"; };
@@ -1132,11 +1132,10 @@
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Theremin" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 1;
 			knownRegions = (
 				en,
-				English,
 			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* Theremin */;
 			projectDirPath = "";
@@ -1337,7 +1336,7 @@
 		43D0C8B50C13F25900940B39 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				43D0C8B60C13F25900940B39 /* English */,
+				8855E9EC25DBD71C00FABFD9 /* en */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -1345,7 +1344,7 @@
 		480249DD15E7AD030029CBC7 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				480249DE15E7AD030029CBC7 /* English */,
+				8855E9EB25DBD71C00FABFD9 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
