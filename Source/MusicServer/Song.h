@@ -19,7 +19,7 @@
 
 #import <Cocoa/Cocoa.h>
 #import "ThereminEntity.h"
-#include <libmpdclient.h>
+#include "libmpdclient.h"
 
 extern NSString *gSongPropertyFile;
 extern NSString *gSongPropertyArtist;
