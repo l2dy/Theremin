@@ -34,7 +34,6 @@
 @class OutputDeviceHandler;
 @class MainPlayerToolbarController;
 @class AppleRemoteController;
-@class SPMediaKeyTap;
 @class FileBrowserController;
 
 extern const NSString *nProfileSwitched;
@@ -95,7 +94,6 @@ extern const NSString *dProfile;
 	
 	MainPlayerToolbarController *_mainPlayerToolbarController;
 	AppleRemoteController *_appleRemoteController;
-	SPMediaKeyTap *_mediaKeyTap;
 }
 
 + (id) instance;
