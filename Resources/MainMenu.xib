@@ -33,7 +33,7 @@
                                 <imageView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="230">
                                     <rect key="frame" x="0.0" y="0.0" width="584" height="55"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMinY="YES"/>
-                                    <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="axesIndependently" image="empty" id="2104"/>
+                                    <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="axesIndependently" id="2104"/>
                                 </imageView>
                                 <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="231">
                                     <rect key="frame" x="49" y="2" width="254" height="17"/>
@@ -995,7 +995,6 @@ Gw
     <resources>
         <image name="NSApplicationIcon" width="32" height="32"/>
         <image name="NSPathTemplate" width="16" height="10"/>
-        <image name="empty" width="40" height="40"/>
         <image name="library" width="30" height="22"/>
         <image name="playlists" width="30" height="22"/>
         <image name="statusbar_background" width="1" height="22"/>
