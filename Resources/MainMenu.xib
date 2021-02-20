@@ -36,7 +36,7 @@
                                     <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="axesIndependently" image="empty" id="2104"/>
                                 </imageView>
                                 <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="231">
-                                    <rect key="frame" x="49" y="2" width="256" height="17"/>
+                                    <rect key="frame" x="49" y="2" width="254" height="17"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
                                     <textFieldCell key="cell" lineBreakMode="clipping" sendsActionOnEndEditing="YES" id="2105">
                                         <font key="font" metaFont="smallSystem"/>
@@ -45,7 +45,7 @@
                                     </textFieldCell>
                                 </textField>
                                 <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3mn-4r-C9c">
-                                    <rect key="frame" x="49" y="16" width="256" height="17"/>
+                                    <rect key="frame" x="49" y="16" width="254" height="17"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
                                     <textFieldCell key="cell" lineBreakMode="clipping" sendsActionOnEndEditing="YES" id="yN7-xd-i0K">
                                         <font key="font" metaFont="smallSystem"/>
@@ -63,7 +63,7 @@
                                     </textFieldCell>
                                 </textField>
                                 <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="243">
-                                    <rect key="frame" x="323" y="5" width="256" height="17"/>
+                                    <rect key="frame" x="322" y="5" width="256" height="17"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMinY="YES"/>
                                     <textFieldCell key="cell" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" id="2107">
                                         <font key="font" metaFont="smallSystem"/>
